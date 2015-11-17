@@ -1,4 +1,7 @@
-﻿using System;
+/* Library for calculating an intersection of a circle and a segment
+by Sokolova Polina */
+
+using System;
 
 namespace geometry
 {
@@ -13,7 +16,7 @@ namespace geometry
         {
             if ((x1 == x2) && (y1 == y2))
             {
-                throw new System.ArgumentException("Points must be different"); //надо ловить при выводе в гуи
+                throw new System.ArgumentException("Points must be different"); 
             }
             double a = sqr(x2 - x1) + sqr(y2 - y1);
             double b = 2 * ((x2 - x1) * (x1 - x0) + (y2 - y1) * (y1 - y0));
@@ -26,5 +29,4 @@ namespace geometry
             return true;
         }
     }
-
 }
