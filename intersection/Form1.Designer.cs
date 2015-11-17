@@ -202,7 +202,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(125, 32);
             this.label8.TabIndex = 17;
-            this.label8.Text = "Do intersect a circle\r\n and a segment:";
+            this.label8.Text = "Do a segment and\r\na circle intersect?";
             // 
             // pictureBox1
             // 
