@@ -14,7 +14,7 @@ namespace intersection
     public partial class Form1 : Form
     {
         private Graphics graphic;
-        int[] array = new int[7];
+        int[] array = {0,0,0,0,0,0,0};
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +28,13 @@ namespace intersection
             for (int i = 0; i < 7; i++)
             {
                 array[i] = rand.Next(50, 250);
+            }
+            while ((array[3] == array[5]) && (array[4] == array[6]))
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    array[i] = rand.Next(50, 250);
+                }
             }
             textBox1.Text = string.Join(",", array[0]);
             textBox2.Text = string.Join(",", array[1]);
