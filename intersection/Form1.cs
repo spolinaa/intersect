@@ -31,10 +31,7 @@ namespace intersection
             }
             while ((array[3] == array[5]) && (array[4] == array[6]))
             {
-                for (int i = 0; i < 7; i++)
-                {
-                    array[i] = rand.Next(50, 250);
-                }
+                array[3] = rand.Next(50, 250);
             }
             textBox1.Text = string.Join(",", array[0]);
             textBox2.Text = string.Join(",", array[1]);
