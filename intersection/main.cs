@@ -12,7 +12,7 @@ namespace geometry
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new intersection.Form1());
+            Application.Run(new intersection.IntersectionForm());
         }
     }
 }

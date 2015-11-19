@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace intersection
 {
-    public partial class Form1 : Form
+    public partial class IntersectionForm : Form
     {
         private Graphics graphic;
         int[] array = {0,0,0,0,0,0,0};
-        public Form1()
+        public IntersectionForm()
         {
             InitializeComponent();
         }

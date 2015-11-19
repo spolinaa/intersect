@@ -1,6 +1,6 @@
 ﻿namespace intersection
 {
-    partial class Form1
+    partial class IntersectionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -64,6 +64,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(173, 20);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
             // 
@@ -148,6 +149,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(173, 55);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 9;
             // 
@@ -155,6 +157,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(173, 90);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 10;
             // 
@@ -162,6 +165,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(173, 125);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 11;
             // 
@@ -169,6 +173,7 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(173, 160);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 12;
             // 
@@ -176,6 +181,7 @@
             // 
             this.textBox6.Location = new System.Drawing.Point(173, 195);
             this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 13;
             // 
@@ -183,6 +189,7 @@
             // 
             this.textBox7.Location = new System.Drawing.Point(173, 230);
             this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 14;
             // 
@@ -191,6 +198,7 @@
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox8.Location = new System.Drawing.Point(173, 330);
             this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
             this.textBox8.Size = new System.Drawing.Size(46, 27);
             this.textBox8.TabIndex = 16;
             // 
@@ -200,7 +208,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.Location = new System.Drawing.Point(42, 325);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(125, 32);
+            this.label8.Size = new System.Drawing.Size(118, 32);
             this.label8.TabIndex = 17;
             this.label8.Text = "Do a segment and\r\na circle intersect?";
             // 
@@ -212,7 +220,7 @@
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // IntersectionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -235,7 +243,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "IntersectionForm";
             this.Text = "Intersection";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
