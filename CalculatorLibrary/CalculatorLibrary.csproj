@@ -7,8 +7,8 @@
     <ProjectGuid>{8AA222FB-2294-420F-8711-EE3A0B7ADA74}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassLibrary1</RootNamespace>
-    <AssemblyName>ClassLibrary1</AssemblyName>
+    <RootNamespace>CalculatorLibrary</RootNamespace>
+    <AssemblyName>CalculatorLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

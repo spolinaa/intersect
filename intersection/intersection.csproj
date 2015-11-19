@@ -83,15 +83,15 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\CalculatorLibrary.csproj">
-      <Project>{8aa222fb-2294-420f-8711-ee3a0b7ada74}</Project>
-      <Name>CalculatorLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="IntersectionForm.resx">
       <DependentUpon>IntersectionForm.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculatorLibrary\CalculatorLibrary.csproj">
+      <Project>{8aa222fb-2294-420f-8711-ee3a0b7ada74}</Project>
+      <Name>CalculatorLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
